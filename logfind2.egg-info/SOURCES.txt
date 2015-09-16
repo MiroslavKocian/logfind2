@@ -1,0 +1,8 @@
+logfind2/__init__.py
+logfind2/logfind.py
+logfind2.egg-info/PKG-INFO
+logfind2.egg-info/SOURCES.txt
+logfind2.egg-info/dependency_links.txt
+logfind2.egg-info/entry_points.txt
+logfind2.egg-info/requires.txt
+logfind2.egg-info/top_level.txt
