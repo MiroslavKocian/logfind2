@@ -1,0 +1,3 @@
+[console_scripts]
+logfind2 = logfind2.logfind:run
+

@@ -1,2 +1,5 @@
+from sys import argv
+
 def run():
-    print "run is ran"
+    search_the_specified_string = "xargs -0 grep -H -s " + ' '.join([str(item) for item in argv[1:]]) 
+    print search_the_specified_string
