@@ -8,4 +8,4 @@ def test_empty_string():
 
 def test_short_string():
     specified_string = "xargs -0 grep -H -s " + ' '.join([str(item) for item in argv[1:]])
-    assert_equal(specified_string, "xargs -0 grep -H -s a")
+    assert_equal(specified_string, "xargs -0 grep -H -s b")
