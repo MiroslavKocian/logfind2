@@ -1,5 +1,6 @@
-from sys import argv
+
+from logfind2.search_the_specified_string import search_the_specified_string
 
 def run():
-    search_the_specified_string = "xargs -0 grep -H -s " + ' '.join([str(item) for item in argv[1:]]) 
-    print search_the_specified_string
+    search_the_specified_string()
+    
