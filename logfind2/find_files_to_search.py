@@ -1,11 +1,3 @@
-~/.logfind
-.txt
-.log
-.tmp
-.wav
-
-file_regex(".txt", ".log", ".tmp", ".wav")
-
 def file_regex(*regexes_in_config):
     return '".*\\({}\\)"'.format(make_or_regex(regexes_in_config))
 
